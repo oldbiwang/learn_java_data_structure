@@ -30,6 +30,7 @@ class ArrayBub
 		int out, in;
 
 		// outer loop(backward)
+		// 这是书的答案，应该是错的，不是out > 1 而是 大于 0，这样才是比较 nElems - 1 次
 		for(out = nElems - 1; out > 1; out--)
 		{
 			// inner loop
